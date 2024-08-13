@@ -1,0 +1,35 @@
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #3563E9;
+    text-transform: uppercase;
+}
+
+.search__input {
+    width: 492px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 70px;
+    border: 1px solid #C3D4E966;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.search__input__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    color: #596780;
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-menu-item-selected {
+    background-color: transparent !important;
+}
+
+.ant-menu-item:has(.active) {
+    color: #fff;
+    background-color: #1677ff !important;
+}
+
+.ant-layout-sider-children {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Plus Jakarta Sans;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    width: 100%;
+}
